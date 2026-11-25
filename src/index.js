@@ -27,16 +27,19 @@ const router = createBrowserRouter([
   },
   {
     path: '/cars',
-    element: <Cars />
-  },
-  {
-    path: '/cars/new',
-    element: <NewCar />
-  },
-  {
-    path: '/cars/:model',
-    element: <Car />
+    element: <Cars />,
+    children: [
+      {
+        path: '/cars/new',
+        element: <NewCar />
+      },
+      {
+        path: '/cars/:model',
+        element: <Car />
+      }
+    ]
   }
+ 
 ])
 
 
