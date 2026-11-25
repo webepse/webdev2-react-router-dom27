@@ -8,12 +8,14 @@ import Cars from './components/Cars';
 import Marques from './components/Marques';
 import NewCar from './components/NewCar';
 import NotFound from './components/NotFound';
+import Marque from './components/Marque';
 
 const MyApp = () => (
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="marques" element={<Marques />} />
+      <Route path="marques/:name" element={<Marque />} />
       <Route path="cars" element={<Cars />} />
       <Route path="cars/new" element={<NewCar />} />
       <Route path="*" element={<NotFound />} />

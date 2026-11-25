@@ -9,6 +9,7 @@ function App() {
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/marques">Liste des marques</Link></li>
+        <li><Link to="/marques/alfa">Alfa Romeo</Link></li>
         <li><Link to="/cars">Les voiture</Link></li>
         <li><Link to="/cars/new">Création d'une nouvelle voiture</Link></li>
       </ul>
