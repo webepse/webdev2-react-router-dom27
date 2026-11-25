@@ -1,3 +1,23 @@
+# Installation à partir de 0
+
+```npx create-react-app react-router-dom27```
+
+```cd react-router-dom27```
+
+```npm start```
+
+```npm install react-router-dom```
+
+# Installation à partir d'un GitHub
+
+```git clone [adresse du GitHub]```
+
+```cd [nom du repo]```
+
+```npm i```
+
+```npm start```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
